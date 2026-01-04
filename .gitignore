@@ -1,0 +1,101 @@
+# -----------------------------
+# Python cache & build files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+build/
+dist/
+
+# -----------------------------
+# Streamlit cache
+# -----------------------------
+.streamlit/
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -----------------------------
+# OS-specific junk
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# -----------------------------
+# Logs & temp files
+# -----------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+
+# -----------------------------
+# Jupyter (optional)
+# -----------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -----------------------------
+# IDE / Editor settings
+# -----------------------------
+# VSCode
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# -----------------------------
+# Node / frontend (if added later)
+# -----------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# -----------------------------
+# Data files (optional)
+# Uncomment if you want to ignore local datasets
+# -----------------------------
+# data/*.csv
+# data/*.json
+# data/*.yaml
+# data/*.yml
+
+# -----------------------------
+# Secrets (never commit)
+# -----------------------------
+secrets.json
+*.key
+*.pem
+*.env
+.env.local
+.env.*.local
+
+# -----------------------------
+# Cache folders
+# -----------------------------
+.cache/
+__cache__/
