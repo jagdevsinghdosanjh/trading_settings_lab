@@ -125,6 +125,7 @@ Patterns
 Repeated mistakes
 
 Project Structure
+![alt text](image.png)
 Code
 trading_settings_lab/
 │ app.py
