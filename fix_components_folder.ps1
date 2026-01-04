@@ -108,7 +108,7 @@ def render_trade_log():
         return
 
     df = pd.DataFrame(st.session_state.trades)
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, width='stretch')
 '@ -Encoding UTF8
 
 # spread_meter.py
