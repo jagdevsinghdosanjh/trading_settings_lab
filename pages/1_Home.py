@@ -2,7 +2,7 @@
 from components.profile_card import render_profile_card
 
 def main():
-    st.title("Home")
+    st.title("🏠 Home")
     st.write("Welcome to the Trading Settings Learning Lab.")
 
     col1, col2 = st.columns(2)
